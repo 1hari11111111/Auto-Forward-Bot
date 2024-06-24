@@ -39,3 +39,5 @@ class channelforward(Client, Config):
 
 if __name__ == "__main__" :
     channelforward().run()
+
+PORT = environ.get("PORT", "8080")
